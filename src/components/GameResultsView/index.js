@@ -34,14 +34,14 @@ const GameResultsView = props => {
           </GameButton>
           <GameButton
             type="button"
-            data-testid="paperButton"
+            data-testid="scissorsButton"
             onClick={() => checkForResult(choicesList[1].id)}
           >
             <GameImage src={choicesList[1].imageUrl} alt={choicesList[1].id} />
           </GameButton>
           <GameButton
             type="button"
-            data-testid="scissorsButton"
+            data-testid="paperButton"
             onClick={() => checkForResult(choicesList[2].id)}
           >
             <GameImage src={choicesList[2].imageUrl} alt={choicesList[2].id} />
